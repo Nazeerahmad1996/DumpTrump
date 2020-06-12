@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "React Native Login Screen Tutorial",
+    "slug": "react-native-login-screen-tutorial",
+    "description": "In this Project we're going to explore the React Native Login Screen Tutorial, and I have written a depth guide with examples in my Blog reactntativemaster.com, for future references. You can check the full Article here. https://reactnativemaster.com/react-native-login-screen-tutorial",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "scheme": "http",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/enter-gorilla.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyDCB3Gcf3YxA3UVQHfRfOnxZwwJwkD4y2w",
+          "authDomain": "dumptrump-1.firebaseapp.com",
+          "databaseURL": "https://dumptrump-1.firebaseio.com",
+          "projectId": "dumptrump-1",
+          "storageBucket": "dumptrump-1.appspot.com",
+          "messagingSenderId": "954517218481",
+          "appId": "1:954517218481:web:a744f73393013255beee90"
+        }
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "example.expo.DumpTrump1",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.533567482896-0g3rrka3klb3r1clrjgpe94vetcv5bfa"
+        }
+      }
+    },
+    "android": {
+      "package": "example.expo.DumpTrump1"
+    }
+  }
+}
